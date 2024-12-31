@@ -18,7 +18,8 @@ const scene = new THREE.Scene();
 // tekst
 const vbTekst = "hier wil ik een tekst";
 
-const nogNietTijd = "Het is nog geen 24:00,\nKom terug op het juiste tijdstip";
+const nogNietTijd =
+  "Het is nog geen 24:00 in belgie,\nKom terug op het juiste tijdstip";
 
 const deel1 = [
   "Hey Herman,",
