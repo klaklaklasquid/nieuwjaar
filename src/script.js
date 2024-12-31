@@ -213,8 +213,8 @@ const tick = () => {
 
   // Camera animation
   const radius = 5;
-  camera.position.x = radius * Math.cos(elapsedTime * 0.1);
-  camera.position.y = radius * Math.sin(elapsedTime * 0.1);
+  camera.position.x = radius * Math.cos(elapsedTime * 0.1) - 5;
+  camera.position.y = radius * Math.sin(elapsedTime * 0.1) - 2;
   camera.lookAt(scene.position);
 
   // Update controls
